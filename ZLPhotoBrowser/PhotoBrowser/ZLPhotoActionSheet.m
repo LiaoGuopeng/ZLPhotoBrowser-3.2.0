@@ -633,8 +633,7 @@ double const ScalePhotoWidth = 1000;
     __block NSMutableArray *errorAssets = [NSMutableArray array];
     __block NSMutableArray *errorIndexs = [NSMutableArray array];
     for (int i = 0; i < data.count; i++) {
-        [photos addObject:@""];
-        [assets addObject:@""];
+        [models addObject:@""];
     }
     
     @zl_weakify(self);
